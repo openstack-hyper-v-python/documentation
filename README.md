@@ -26,37 +26,56 @@ PyWin32:
 <ul>
 <li>MSVC - Same version  as is used to build Python</li>
 <li>MS Platform SDK</li>
+</ul>
 SetupTools:
+<ul>
 <li>None</li>
+</ul>
 M2Crypto:
+<ul>
 <li>SWIG 1.3.28+ </li>
 <li>OpenSSL 0.98+ Dev + Binaries (Must be installed to c:\pkg)</li>
+</ul>
 PyCrypto:
+<ul>
 <li>	None</li>
-Greenlet:
+</ul>
+<ul>
 <li>None</li>
+</ul>
 Eventlet:
+<ul>
 <li>	None</li>
+</ul>
 MySQL-Python:
+<ul>
 <li>SetupTools installed</li>
 <li>MySQL 3.23.32+ (Including MySQL Connector/C)  I have tested with 5.1</li>
 <li>Zlib</li>
 <li>Openssl</li>
 <li>Environment variable %mysqlroot%, which points to the mysql install directory</li>
+</ul>
 Lxml:
+<ul>
 <li>Cython</li>
 <li>Script will download appropriate static libraries, otherwise:</li>
 <ul>
 <li>Libxml2 2.7.0+</li>
 <li>Libxslt 1.1.23+</li>
 </ul>
+</ul>
 Pyopenssl:
+<ul>
 <li>Openssl</li>
+</ul>
 Numpy:
+<ul>
 <li>Cython</li>
 <li>Mingw gfortran compiler (Should probably get the complete mingw package)</li>
 <li>Visual Studio 2008</li>
 <li>Windows Platform SDK</li>
+</ul>
 Posix_ipc:
+<ul>
 <li>Mingw + pthreads + msys</li>
 </ul>
