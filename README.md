@@ -1,4 +1,4 @@
-<h2>Global Dependencies (before building python):</h2>
+<h2>Global Dependencies (before building python)</h2>
 <ul>
 <li>MinGW + MSYS (need gendef for mingw cross compile ~libpython27.a)</li>
 <li>Jenkins w/github plugin, BuildResultTrigger plugin</li>
@@ -13,7 +13,7 @@
 <li>SVN for Windows</li>
 </ul>
 
-<h2>Environment Variables:</h2>
+<h2>Environment Variables</h2>
 INCLUDE<br/>
 C:\MinGW\include;C:\MinGW\msys\1.0\include;C:\pkg\include;C:\GitHub\mman-win32-read-only<br/><br/>
 LIB<br/>
@@ -22,6 +22,7 @@ PATH<br/>
 C:\GitHub\openstack-hyper-v-python\swigwin-3.0.0;C:\Perl\site\bin;C:\Perl\bin;C:\Program Files (x86)\Git\bin\;C:\Program Files (x86)\Subversion\bin;C:\Program Files (x86)\svn\bin;C:\Program Files (x86)\nasm;C:\Program Files (x86)\MySQL\MySQL Utilities 1.3.6;C:\MinGW\bin;C:\MinGW\msys\1.0\bin;C:\Python27\;C:\Python27\Scripts
 (In addition to whatever is set in the PATH by default)<br/><br/>
 
+<h2>Modules</h2>
 PyWin32:
 <ul>
 <li>MSVC - Same version  as is used to build Python</li>
