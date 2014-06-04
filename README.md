@@ -23,36 +23,40 @@ C:\GitHub\openstack-hyper-v-python\swigwin-3.0.0;C:\Perl\site\bin;C:\Perl\bin;C:
 (In addition to whatever is set in the PATH by default)<br/><br/>
 
 PyWin32:
-�	MSVC � Same version  as is used to build Python
-�	MS Platform SDK
+<ul>
+<li>MSVC - Same version  as is used to build Python</li>
+<li>MS Platform SDK</li>
 SetupTools:
-�	None
+<li>None</li>
 M2Crypto:
-�	SWIG 1.3.28+ 
-�	OpenSSL 0.98+ Dev + Binaries (Must be installed to c:\pkg)
+<li>SWIG 1.3.28+ </li>
+<li>OpenSSL 0.98+ Dev + Binaries (Must be installed to c:\pkg)</li>
 PyCrypto:
-�	None
+<li>	None</li>
 Greenlet:
-�	None
+<li>None</li>
 Eventlet:
-�	None
+<li>	None</li>
 MySQL-Python:
-�	SetupTools installed
-�	MySQL 3.23.32+ (Including MySQL Connector/C)  I have tested with 5.1
-�	Zlib
-�	Openssl
-�	Environment variable %mysqlroot%, which points to the mysql install directory
+<li>SetupTools installed</li>
+<li>MySQL 3.23.32+ (Including MySQL Connector/C)  I have tested with 5.1</li>
+<li>Zlib</li>
+<li>Openssl</li>
+<li>Environment variable %mysqlroot%, which points to the mysql install directory</li>
 Lxml:
-�	Cython
-�	Script will download appropriate static libraries, otherwise:
-o	Libxml2 2.7.0+
-o	Libxslt 1.1.23+
+<li>Cython</li>
+<li>Script will download appropriate static libraries, otherwise:</li>
+<ul>
+<li>Libxml2 2.7.0+</li>
+<li>Libxslt 1.1.23+</li>
+</ul>
 Pyopenssl:
-�	Openssl
+<li>Openssl</li>
 Numpy:
-�	Cython
-�	Mingw gfortran compiler (Should probably get the complete mingw package)
-�	Visual Studio 2008
-�	Windows Platform SDK
+<li>Cython</li>
+<li>Mingw gfortran compiler (Should probably get the complete mingw package)</li>
+<li>Visual Studio 2008</li>
+<li>Windows Platform SDK</li>
 Posix_ipc:
-�	Mingw + pthreads + msys
+<li>Mingw + pthreads + msys</li>
+</ul>
