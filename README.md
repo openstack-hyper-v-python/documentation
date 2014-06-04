@@ -1,7 +1,7 @@
 <h2>Global Dependencies (before building python)</h2>
 <ul>
 <li>MinGW + MSYS (need gendef for mingw cross compile ~libpython27.a)</li>
-<li>Jenkins w/github plugin, BuildResultTrigger plugin</li>
+<li>Jenkins w/github plugin</li>
 <li>Jenkins-Job-Builder (Requires PBR and PIP)</li>
 <li>Git for windows</li>
 <li>WDK (Windows Driver Kit)</li>
