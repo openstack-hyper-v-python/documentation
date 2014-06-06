@@ -7,7 +7,6 @@
 <li>WDK (Windows Driver Kit)</li>
 <li>Windows SDK for Windows Server 2008 and .NET 3.5</li>
 <li>.NET Framework 3.5</li>
-<li>ActiveState Perl</li>
 <li>Nasm for windows (Rename nasm.exe to nasmw.exe)</li>
 <li>Visual C++ 2008</li>
 <li>SVN for Windows</li>
